@@ -47,6 +47,7 @@
         <option value="$PROJECT_DIR$/eureka-order/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-order2/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-user-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-dashboard/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -57,6 +58,17 @@
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
   <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="$PROJECT_DIR$/eureka-user-hystrix">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://github.com/gaozhanghappy/microserver-springcloud/microserver-springcloud/eureka-user-hystrix" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="mySupportsUserInfoFilter" value="true" />
   </component>
 </project>
