@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-order" />
+        <module name="eureka-order2" />
+        <module name="eureka-server" />
+        <module name="eureka-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-order" target="1.8" />
+      <module name="eureka-order2" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="eureka-user" target="1.8" />
+      <module name="eureka-user-hystrix" target="1.8" />
+      <module name="microserver-springcloud" target="1.8" />
+      <module name="microservice-eureka-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
