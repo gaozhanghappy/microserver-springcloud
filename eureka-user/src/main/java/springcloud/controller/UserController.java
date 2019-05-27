@@ -19,4 +19,8 @@ public class UserController {
         System.out.println(121);
         return this.restTemplate.getForObject("http://eurekaorder/order/"+id,String.class);
     }
+    @GetMapping("/test")
+    public String test(){
+        return "test";
+    }
 }
