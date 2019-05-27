@@ -46,6 +46,7 @@
         <option value="$PROJECT_DIR$/eureka-user/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-order/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-order2/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-user-hystrix/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -55,4 +56,7 @@
     </option>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="SvnBranchConfigurationManager">
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
 </project>

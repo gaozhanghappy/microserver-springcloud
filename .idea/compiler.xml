@@ -10,6 +10,7 @@
         <module name="eureka-order2" />
         <module name="eureka-server" />
         <module name="eureka-user" />
+        <module name="eureka-user-hystrix" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
