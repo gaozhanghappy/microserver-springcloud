@@ -3,6 +3,8 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/config-client" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/config-server" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/eureka-user-hystrix" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/gateway-zuul" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/hystrix-dashboard" vcs="Git" />
