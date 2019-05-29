@@ -1,11 +1,5 @@
 server:
   port: 8050
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
 spring:
   application:
     name: gatewayzool
@@ -13,4 +7,5 @@ zuul:
   routes:
     order-serviceId:
       path: /order/**
+      url: http://localhost:7900/
       service-id: eureka-order
