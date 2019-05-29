@@ -9,3 +9,6 @@ spring:
       label: master #对应git中的分支，默认为master
 server:
   port: 8801
+management:
+  security:
+    enabled: false

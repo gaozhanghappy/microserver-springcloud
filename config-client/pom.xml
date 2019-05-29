@@ -19,6 +19,11 @@
 	</properties>
 
 	<dependencies>
+		<!--监控程序在运行时的状态，其中包括、refresh的功能-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
