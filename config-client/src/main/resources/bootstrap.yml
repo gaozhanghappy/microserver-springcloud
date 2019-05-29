@@ -4,7 +4,8 @@ spring:
     name: configclient
   cloud:
     config:
-      profile: dev   #配置服务中心的profile
+      profile: prod  #配置服务中心的profile
       uri: http://localhost:8888/ #配置中心的地址
+      label: master #对应git中的分支，默认为master
 server:
   port: 8801

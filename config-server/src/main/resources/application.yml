@@ -4,5 +4,10 @@ spring:
     name: configserver
   profiles:
     active: native
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://git@github.com:gaozhanghappy/microserver-springcloud.git
 server:
   port: 8888  #使用本地文件系统的储存方式来保存配置信息
