@@ -11,6 +11,7 @@
         <module name="eureka-server" />
         <module name="eureka-user" />
         <module name="eureka-user-hystrix" />
+        <module name="gateway-zuul" />
         <module name="hystrix-dashboard" />
       </profile>
     </annotationProcessing>
@@ -20,6 +21,7 @@
       <module name="eureka-server" target="1.8" />
       <module name="eureka-user" target="1.8" />
       <module name="eureka-user-hystrix" target="1.8" />
+      <module name="gateway-zuul" target="1.8" />
       <module name="hystrix-dashboard" target="1.8" />
       <module name="microserver-springcloud" target="1.8" />
       <module name="microservice-eureka-server" target="1.8" />

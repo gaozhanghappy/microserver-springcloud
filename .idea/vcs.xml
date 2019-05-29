@@ -4,6 +4,7 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$/eureka-user-hystrix" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/gateway-zuul" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/hystrix-dashboard" vcs="Git" />
   </component>
 </project>
