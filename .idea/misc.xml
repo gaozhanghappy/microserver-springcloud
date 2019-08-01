@@ -69,6 +69,13 @@
             </SvnBranchConfiguration>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/gateway-zuul">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://github.com/gaozhanghappy/microserver-springcloud/microserver-springcloud/gateway-zuul" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="mySupportsUserInfoFilter" value="true" />
